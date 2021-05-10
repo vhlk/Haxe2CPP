@@ -1,0 +1,8 @@
+-p Main
+
+Main
+
+--each
+-L hxcpp
+-D static_link
+--cpp bin/cpp
