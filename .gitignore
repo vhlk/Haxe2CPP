@@ -1,1 +1,3 @@
 .vscode/
+bin/cpp/hxcpp/.gitignore
+bin/cpp/hxcpp/.git/
