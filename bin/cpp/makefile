@@ -2,13 +2,8 @@ CC = g++
 
 INCPATH = -I./include \
 			-I./hxcpp/include \
-			-I./hxcpp/include/cpp \
-			-I./hxcpp/include/hx \
 
 LIBPATH = -L. \
-			-L./hxcpp/src \
-			-L./hxcpp/src/cpp \
-			-L./hxcpp/src/hx \
 
 LDLIBS = -loutput -lpthread
 

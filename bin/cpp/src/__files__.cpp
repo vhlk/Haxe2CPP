@@ -5,6 +5,8 @@ namespace hx {
 const char *__hxcpp_all_files[] = {
 #ifdef HXCPP_DEBUGGER
 "/usr/share/haxe/std/cpp/_std/Std.hx",
+"/usr/share/haxe/std/cpp/_std/haxe/Log.hx",
+"/usr/share/haxe/std/haxe/iterators/ArrayIterator.hx",
 "Main.hx",
 #endif
  0 };
@@ -12,6 +14,8 @@ const char *__hxcpp_all_files[] = {
 const char *__hxcpp_all_files_fullpath[] = {
 #ifdef HXCPP_DEBUGGER
 "/usr/share/haxe/std/cpp/_std/Std.hx",
+"/usr/share/haxe/std/cpp/_std/haxe/Log.hx",
+"/usr/share/haxe/std/haxe/iterators/ArrayIterator.hx",
 "/home/vh/Documents/Haxe2CPP/Main.hx",
 #endif
  0 };
@@ -20,6 +24,8 @@ const char *__hxcpp_all_classes[] = {
 #ifdef HXCPP_DEBUGGER
 "Main",
 "Std",
+"haxe.Log",
+"haxe.iterators.ArrayIterator",
 #endif
  0 };
 } // namespace hx

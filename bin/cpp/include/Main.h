@@ -55,6 +55,15 @@ class HXCPP_CLASS_ATTRIBUTES Main_obj : public ::hx::Object
 		static int randomFunction();
 		static ::Dynamic randomFunction_dyn();
 
+		static ::Array< ::Dynamic> createEmptyArray2D();
+		static ::Dynamic createEmptyArray2D_dyn();
+
+		static ::Array< Float > createEmptyArray1D();
+		static ::Dynamic createEmptyArray1D_dyn();
+
+		static void printArrayElements(::Array< ::Dynamic> array);
+		static ::Dynamic printArrayElements_dyn();
+
 };
 
 
